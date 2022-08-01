@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mouse+Memoirs&display=swap');
+#BOX {
+    text-align: center;
+    margin: auto;
+}
+.twitter {
+    border: 2px solid black;
+    width:20%;
+    padding: 10px;
+    height:500px;
+    text-align: center;
+    font-size: 20px;
+   display:inline-block;
+   padding-bottom:30px;
+}
+.btn1{
+    background-color: black;
+    color:white;
+    border-radius: 25px;
+    text-align: center;
+    width:250px;
+    height: 50px;
+    cursor:pointer;
+}
+.btn1:hover {
+          opacity:0.9;
+          color:blueviolet;
+}
+.twitterbtn{
+    text-align: center;
+   
+}
+.instagram {
+    border:2px;
+    width:20%;
+    padding: 10px;
+    height:500px;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    background-color: rgb(251,68,124);
+    color:white;
+    padding-top: 35px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.btn2{
+    background-color: white;
+    color:hotpink;
+    border-radius: 25px;
+    text-align: center;
+    width:250px;
+    height: 50px;
+    border:white;
+    cursor:pointer;
+}
+.instabtn{
+    text-align: center;
+}
+.btn2:hover{
+    background-color: grey;
+}
+img {
+    width:100px;
+    height:100px;
+    padding-top: 10px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+font-family: 'Mouse Memoirs', sans-serif;
+}
+.twitter1 {
+    border: 2px solid black;
+   width:20%;
+   padding: 10px;
+   height:500px;
+   text-align: center;
+   font-size: 20px;
+  display:inline-block;
+  padding-bottom: 30px;
+  margin-left:20px;
+}

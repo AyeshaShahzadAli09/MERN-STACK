@@ -1,0 +1,83 @@
+
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(115,191,140,1) 37%, rgba(253,187,45,1) 72%);
+
+}
+.container {
+    width: 90% ;
+    margin:auto;
+    text-align: center;
+    padding: 50px ;
+   font-size: 12px;
+}
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+tr:nth-child(even) {
+    background-color: white;
+}
+.container .r1 {
+    background-color: white;
+}
+
+.heading {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.container1 {
+     padding:12px 15px;
+    font-family:  sans-serif;
+}
+tr td {
+    border:none;
+}
+tr td {
+    padding-bottom: 20px;
+}
+
+.btn1{
+    padding-top: 13px;
+}
+.btn1 :hover{
+  opacity:0.7;
+}
+.btn2 :hover{
+       opacity:0.7;
+}
+.btn3 :hover {
+    opacity:0.7;
+}
+.btn1 .btn {
+    border-radius: 3px;
+     background-color:green;
+     color: white;
+     border:none;
+     height: 30px;
+     width:80px;
+     cursor: pointer;
+}
+.btn2{
+    padding-top: 13px;
+}
+.btn2 .btn {
+    border-radius: 3px;
+    background-color: yellow;
+    border:none;
+    height: 30px;
+    width:50px;
+    cursor: pointer;
+}
+.btn3 {
+    padding-top:13px ;
+}
+.btn3 .btn {
+    border-radius: 3px;
+    background-color:red;
+    border:none;
+    color:white;
+    height: 30px;
+    width:80px;
+    cursor: pointer;
+}
