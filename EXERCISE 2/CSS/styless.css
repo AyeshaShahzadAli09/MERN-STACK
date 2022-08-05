@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+.container {
+   background-color: rgb(48, 49, 54);
+    display :block;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.span-text{
+    padding: 20px;
+    padding-left: 80px;
+}
+span {
+    color:rgb(59, 8, 168);
+}
+ nav{
+    height:55px;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    position: relative;
+    top: -50px;
+    left: 1060px;
+    font-size: 13px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+:any-link:hover{
+    color:rgb(59, 8, 168);
+}
+:any-link{
+    color:white;
+    text-decoration: none;
+}
+    /*PURPLE LINE*/
+
+hr{
+    background-color: rgb(59, 8, 168);
+    height:5px;
+    margin:0;
+    border: none;
+}
+
+   /* BLOCK 2 */
+
+h4 {
+    font-size: 22px;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-family: 'Dancing Script', cursive;
+     font-family: 'Roboto', sans-serif;
+}
+.btn1 {
+    background-color:rgb(59, 8, 168);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding:10px;
+    border:none;
+    cursor: pointer;
+}
+.btn1:hover {
+    color: black;
+    opacity: 0.7;
+}
+.placeholder {
+    padding: 10px;
+    border:none;
+    border-radius: 2px;
+    
+}
+.left-style{
+    padding-left: 1010px;
+    position: relative;
+    top: -25px;
+}
+.nav1 {
+    height: 60px;
+}
+    /* WHITE BLOCK */
+h3 {
+    text-align: center;
+    font-size: 30px;
+    padding:10px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    text-align: center;
+    padding-left:80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.fiveimg {
+    width:100%;
+    text-align: center;
+}
+img {
+    height:150px;
+    padding:20px;
+}
+        /* 2ND LAST BLOCK*/
+.right-style {
+    margin-left:70px;
+}
+.placeholder1{
+   width:35%;
+   padding:10px;
+   border-radius: 5px;
+   border:none;
+}
+.lastblock {
+    background-color:rgb(59, 8, 168);
+    color:white;
+}
+.lastblock p {
+    padding-top: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+}
