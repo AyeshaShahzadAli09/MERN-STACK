@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+}
+.p-4 {
+    padding:2rem 0;
+}
+p {
+    font-size: 20px;
+} 
+.text-dark {
+color: #333;
+
+}
+.text-light {
+  color:#fff;
+}
+.text-center {
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.m-1 {
+    margin:4rem 1rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem ;
+    height:75px;
+    width:90vw;
+    opacity: 0.9;
+    flex-wrap: wrap;
+}
+.items {
+    display:flex;
+   align-items: center;
+}
+.items hr {
+    height:40px;
+    border:2px solid #fff;
+    opacity: 0.7;
+}
+.navigation h5 {
+    overflow: hidden;
+    position:absolute;
+    left:48px;
+    bottom:85%;
+}
+ul {
+  list-style: none;
+}
+ul li  a {
+  text-decoration: none;
+  padding:19px;
+  color:#fff;
+  font-size: 17px;
+}
+ul li a:hover {
+    color:#343a40;
+    font-weight: bolder;
+    font-size: 20px;
+} 
+
+.btn1 {
+  background-color: white;
+  color:#333;
+  border:none;
+  border-radius:25px;
+  padding:0.5rem 1rem;
+}
+
+/* BACKGROUND*/
+.bg {
+    background: url(https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center/cover;
+    background-attachment: fixed;
+    height: 80vh;
+}
+.overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width:100%;
+}
+.text-img{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:80%;
+    animation: zoom-in-zoom-out 2s 0.5s ease-out 1;
+}
+@keyframes zoom-in-zoom-out { 
+    0% {
+  transform: scale(0, 0);
+}
+50% {
+  transform: scale(0.5, 0.5);
+}
+100% {
+  transform: scale(1, 1);
+}
+}
+              /* OUR GALLERY */
+.line-h::after {
+  margin-top: 7px;
+  display: block;
+  content: ' ';
+  border-bottom: 3px solid #333;
+  position: relative;
+  left:610px;
+  width: 100px;
+}
+.gallery h1 {
+    font-size: 30px;
+    /* font-weight: bold; */
+  }            
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.pictures img {
+          width:370px;
+          height:370px;
+          padding: 1rem;
+}
+.last-block {
+    background-color:#343a40;
+}
