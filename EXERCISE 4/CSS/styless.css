@@ -1,0 +1,246 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* NAVBAR   */
+ .navigation { 
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding:1rem;                      
+    border-bottom: 4px solid #93cb52;
+    color:#fff;
+    height:75px;
+    width:100vw;
+ }
+span {
+    color: #93cb52;
+}
+.list-items{
+    display: flex;
+    align-items: center;
+}
+ul {
+   list-style: none;
+ }
+ul li a {
+    text-decoration: none;
+    padding: 19px 15px;
+    color:white;
+}
+ ul li a:hover {
+
+    background-color: #93cb52;
+     border-radius: 5px;
+} 
+
+/* BACKGROUND IMAGE-CONTENT */
+.bg {
+     background: url(https://images.pexels.com/photos/3274903/pexels-photo-3274903.jpeg?auto=compress&cs=tinysrgb&w=600) no-repeat center center/cover;
+    background-attachment: fixed;
+    height:100vh;
+    color:#fff;
+    
+}
+.bg .bg-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    padding :200px;
+    animation: zoom-in-zoom-out 1.3s 0.1s ease 1;
+}
+ @keyframes zoom-in-zoom-out { 
+          0% {
+        transform: scale(0, 0);
+      }
+      50% {
+        transform: scale(0.5, 0.5);
+      }
+      100% {
+        transform: scale(1, 1);
+      }
+     }
+        
+.overlay {
+    height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width:100%;
+}
+.paragraph {
+    font-size: 1.3rem;
+}
+.main-heading {
+    font-size: 3.6rem;
+    margin-bottom: 20px; 
+    text-align: center;      
+    /* animation add */
+}
+.bg a {
+    margin-top: 25px;
+    text-decoration: none;
+}
+.bg a {
+    border:none;
+    border-radius:5px ;
+    background-color: #93cb52;
+    padding:10px 20px;
+    color:white;
+}
+a:hover  {
+           color:#333;
+           opacity: 0.9;
+}
+
+/* THIRD BLOCK */
+h2 {
+    font-size: 2.3rem;
+    color:#333;
+    text-align: center;
+    padding: 20px 0;
+}
+.third-block{ 
+    background-color: rgb(238, 234, 229);
+}
+.container-3 {
+    overflow: hidden;
+    margin:auto;
+    color:#333;
+    height:40vh;
+}
+.items-3 {
+      display:flex;
+      padding:1 rem;
+      justify-content: center;
+     
+}
+.item {
+        text-align: center;
+        flex:1;
+        padding:0 2rem;
+}
+section .fa-solid {
+    background-color: #93cb52;
+    font-size: 50px;
+    border-radius: 100px;
+    padding:0.75rem 0.75rem;
+}
+.second-heading {
+    margin:1rem;
+}
+
+/*  WHO WE ARE */
+.fourth-block {
+    display:flex;
+}
+.img-block {
+    background:url(https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center/cover ;
+    flex:1;
+}
+h3 {
+    margin:1rem 0;
+}
+.who-text {
+    background-color: #333;
+    flex:1;
+    color:white;
+    padding:2rem;
+}
+
+.fourth-block .description li {
+      padding:0.5rem 0 ;
+      border-bottom: 2px dotted #444;
+}
+
+
+/* OUR CLIENTS */
+.logo-images {
+    display: flex;
+    justify-content: center;
+    margin:2rem;
+
+}
+.fifth-block  {
+    /* overflow: hidden; */
+     padding:0 2rem;
+}
+img {
+    padding:0 2rem;
+    height:150px;
+} 
+/* six-block */
+.text-dark {
+    color:#333;
+    font-size: 1.9rem;
+}
+.six-block{
+    display: flex;
+    
+}
+.contact {
+    background-color: #93cb52;
+    color: #fff;
+    flex: 1;
+    padding:2rem 1rem;
+}
+div {
+    display: inline-block;
+}
+label{
+    /* cursor: default; */
+}
+input {
+    padding: 0.3rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 90%;               /* 100%*/
+    margin-bottom:0.5rem;                           /*  it is because the last button will adjust*/
+}
+.img-block2 {
+    background: url(https://images.pexels.com/photos/1448561/pexels-photo-1448561.jpeg?auto=compress&cs=tinysrgb&w=600) no-repeat center center/cover;
+     flex:1;
+    
+}
+.six-block form {
+    /* display: block; */
+}
+.six-block .sbtn {
+    background-color:#333;
+    color:#fff;
+    border-radius: 5px;
+}
+.six-block a {
+    text-decoration: none;
+    padding:0.2rem 9rem;      /*  left to right :16.5 rem */
+}
+.sbtn {
+    display:block;   /* inline block*/
+}    
+.six-block a:hover {
+    background-color: #fff;
+    color:#333;
+    /* cursor:pointer; */
+}
+
+
+/* LAST BLOCK */
+.last-block{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color:#fff;
+    padding:2rem 0;
+    font-size:17px;
+}
