@@ -1,0 +1,314 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color:black
+}
+p {
+    font-size: 20px;
+}
+span{
+color: rgb(38, 49, 212);
+}
+.text-dark {
+color: #333;
+}
+.text-light {
+  color:#fff;
+}
+.text-center {
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.p-1 {
+padding : 1rem 6rem;
+}
+.p-2 {
+    padding:0.5rem 30rem;
+}
+.p-3 {
+    padding:1rem 15rem;
+}
+.p-4 {
+    padding:2rem 0;
+}
+.p-5 {
+    padding: 1rem 0;
+}
+.p-6{
+  padding:  0.5rem 1rem;
+}
+.p-7{
+    padding:0.5rem;
+}
+.p-9{
+    padding:0 2rem;
+}
+.p-8{
+   padding: 0.5rem 25rem;
+}
+.m-1 {
+    margin:2rem 2rem;
+}
+.m-2 {
+    margin: 2rem 3rem;
+}
+.m-3{
+    margin:2rem 2rem;
+}
+.m-5{
+  margin:1rem 1rem;
+}
+.m-6{
+    margin: 0 1rem;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem ;
+    /* height:75px; */
+    /* width:100vw; */
+    flex-wrap: wrap;
+}
+.navigation h1 {
+        font-size: 2.25rem;
+}
+.items {
+    display:flex;
+   align-items: center;
+}
+.navigation ul {
+    list-style: none;
+  }
+  ul li  a {
+    text-decoration: none;
+    padding:19px;
+    color:black;
+    font-size: 17px;
+  }
+  ul li a:hover {
+      opacity: 0.7;
+      font-weight: bolder;
+      font-size: 20px;
+  } 
+  
+  .btn1 {
+    background-color:black;
+    color:#fff;
+    border:none;
+    border-radius:25px;
+    padding:0.5rem 1rem;
+  }
+
+  /* <!-- MAIN-DISPLAY --> */
+.front-display{
+    display: flex;
+    justify-content: space-between;
+  }
+.intro h1 {
+    font-size: 2.75rem;
+  }
+.btn button {
+    display: flex;
+    
+}
+.btn2{
+    background-color: rgb(38, 49, 212);
+    color:#fff;
+    border:none;
+    padding:0.75rem 0.75rem;
+    margin:1rem 1rem;
+    cursor: pointer;
+    
+  }
+.btn3{
+    color:black;
+    border:1px solid rgb(119, 105, 105);
+    background-color: #fff;
+    font-style: oblique;
+    padding:0.75rem 0.75rem;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+  /* <!-- CAR COMPANY LOGOS --> */
+.logo{
+    display: flex;
+}
+.logo img {
+    width:190px;
+    height:150px;
+    padding:0 1rem;
+    margin:0 1rem;
+}
+/* <!-- ABOUT US --> */
+#about-info{
+    display: flex;
+    margin:2rem 3rem;
+}
+.side-img img{
+    width:500px;
+    height:400px;
+}
+.right-text{
+      margin-right: 10rem;
+}
+.right-text h4 {
+    font-size:19px;
+}
+.right-text h1 {
+    font-size: 2.25rem;
+} 
+.btn4{
+    background-color: rgb(38, 49, 212);
+    color:#fff;
+    border:none;
+    padding:0.75rem 0.75rem;
+    cursor: pointer;
+}
+          /* <!-- OUR SERVICES --> */
+#services{
+    background-color: black;
+    height:60vh;
+}
+.cards-3{
+    display: flex;
+    justify-content: center;
+}
+.fa-solid{
+    font-size: 95px;
+    padding:0.5rem 2rem;
+    color:#333;
+}
+.card1{
+    border-top: 5px solid rgb(38, 49, 212);
+    background-color: #fff;
+    width:350px;
+    height:270px;
+    box-shadow: 10px 10px 10px black;
+}
+          /* <!-- COLLECTION --> */
+.data{
+    margin-top:20em;
+}
+.data h4 {
+    font-size: 19px;
+}
+.data h1 {
+ font-size: 2.25rem;
+}
+.car-items{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 22px;
+    color: #212529;
+    list-style-type: disc;
+}
+.line-h::before {
+    margin-top: 0.75rem;
+    margin-bottom: 5px;
+    display: block;
+    content: ' ';
+    margin-left:7.7rem;
+    border-bottom: 3px solid #212529;
+    position: relative;
+    width: 80%;
+  } 
+.products span {
+    color:rgb(216, 174, 37);
+  }
+.brand-name img {
+    width:310px;
+    height:280px
+
+  }
+.brand-name .fa-solid{
+    font-size: 20px;
+    color:#fff;
+  }
+.products{
+    display: flex;
+    justify-content: center;
+    margin:3rem ;
+    flex-wrap: wrap;
+}
+.brand-name{
+    width:350px;
+    height:400px;
+    background-color: #fff;
+    margin: 2rem 2rem;
+    box-shadow: 10px 10px 10px  rgba(0,0,0,.12);
+}
+.btn-5{
+    background-color: rgb(163, 44, 231);
+    color:#fff;
+    padding:0.1rem 2.5rem;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.brand-name p{
+    font-weight: bold;
+    color: #212529;
+}
+.btn-6{
+    margin:0 35rem;
+    background-color: rgb(163, 44, 231);
+    color:#fff;
+    padding:0.75rem 2.5rem;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+/* LAST BLOCK */
+.img1{
+    width:200px;
+    height:50px;
+}
+.img2 {
+    width:200px;
+    height:50px;
+    margin-left: 0.7rem;
+}
+.apps {
+    background-color:rgb(163, 44, 231) ;
+    height: 40vh;
+    width:97%;
+    position: relative;
+    top:110px;
+    left:10px;
+    /* margin-top: 3rem; */
+}
+.black-bg{
+    background-color: black;
+    height: 40vh;
+}
+#last-block{
+    position: relative;
+}
+.l-text{
+    /* display: inline; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12rem;
+
+}
+.icons .fa-brands{
+    padding:0 0.5rem;
+    font-size: 22px;
+}
+footer ul{
+    list-style: none;
+    text-decoration: underline;
+}
