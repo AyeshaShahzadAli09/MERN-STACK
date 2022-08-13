@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+.text-dark {
+color: #333;
+
+}
+.text-light {
+  color:#fff;
+}
+.text-center {
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+ .m-1 {
+  margin: 4rem 2rem;
+}
+.m-2 {
+  margin: 1rem 4rem;
+} 
+.m-3 {
+  margin:0 4rem;
+}
+.m-4 {
+  margin:1rem 1rem;
+}
+.p-1 {
+  padding:1rem 0.5rem;
+}
+.p-2 {
+  padding-top: 4rem ;
+}
+
+.p-3 {
+  padding:1.5rem 0.5rem;
+}
+.p-4{
+  padding: 2rem 0;
+}
+span{
+    color:dodgerblue;
+}
+.navigation {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:75px;
+    width:100vw;
+   background-color:#444;
+   padding:1rem; 
+   opacity: 0.9;
+   flex-wrap: wrap;
+   border-bottom: 3px solid dodgerblue;
+}
+h2 {
+    color: #fff;
+}
+.items {
+    display:flex;
+   align-items: center;
+   margin-right:25px;
+}
+
+ul {
+  list-style: none;
+}
+ul li  a {
+  text-decoration: none;
+  padding:0 10px;
+  color:#333;
+  font-size: 22px;
+}
+input {
+  padding:0.7rem 0.6rem;
+  border:none;
+  border-radius:5px;
+  margin-left:50px;
+  margin-right: 10px;
+
+}
+.btn1 {
+  background-color: dodgerblue;
+  border:none;
+  border-radius:5px;
+  padding:0.5rem 0.5rem;
+  color:#fff;
+
+}
+/* background */
+.bg {
+    background: url(https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    width:100%;
+}
+     /* TEXT-ON-IMAGE*/
+.text-para{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}    
+.text-img{
+      height:5px;
+      animation: zoom-in-zoom-out 2s 0.5s ease-out 1;
+}
+@keyframes zoom-in-zoom-out { 
+  0% {
+transform: scale(0, 0);
+}
+50% {
+transform: scale(0.5, 0.5);
+}
+100% {
+transform: scale(1, 1);
+}
+}
+.main-heading {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  background-color: #fff;
+  opacity:0.7;
+  padding:0.75rem 0.2rem;
+  width:700px;
+}
+
+.main-para{
+  background-color: #444;
+  opacity: 0.7;
+  width:750px;
+  padding:0.75rem 0.55rem;
+}
+.form-size{
+  max-width: 50%;
+}
+.form-text{
+  margin-bottom: 1rem;
+}
+.form-inside{
+  display: block;
+  width: 80%;
+  padding: 0.375rem 0.2rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.text-para{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  position: relative;
+  top:100px;
+  display: flex;
+  background-color:dodgerblue;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  height:320px;
+  width:350px;
+  margin-left:1rem;
+}
+.btn4{
+  color: #fff;
+  padding:.375rem 1.89rem ;
+  border:1px solid #fff;
+  border-radius: 5px solid #fff;
+  vertical-align: middle;
+}
+.form-text .btn4 a{
+  text-decoration: none;
+}
+          /* WHAT WE DO */
+.wwe {
+  font-size: 1.25rem;
+}
+.fa-solid {
+  font-size: 3rem;
+}
+.fa-brands {
+  font-size: 5rem;
+}
+.logo {
+  display: flex;
+}
+
+      /* OUR CLIENTS */
+.bg-2{
+  background: url(https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=600) no-repeat center center/cover;
+  height:50vh;
+}
+.brands{
+  display: flex;
+  justify-content: center;
+}
+/* RECENT PROJECTS */
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card-1{
+  background-color: #6c757d;
+  border-radius: 5px;
+}
+
+.card-1 img  {
+height:150px;
+width:250px;
+}
+.last-block {
+  background-color: #333;
+
+}
