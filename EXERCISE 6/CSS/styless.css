@@ -87,13 +87,13 @@ padding : 1rem 6rem;
 .navigation ul {
     list-style: none;
   }
-  ul li  a {
+ul li  a {
     text-decoration: none;
     padding:19px;
     color:black;
     font-size: 17px;
   }
-  ul li a:hover {
+ul li a:hover {
       opacity: 0.7;
       font-weight: bolder;
       font-size: 20px;
@@ -249,6 +249,9 @@ padding : 1rem 6rem;
     margin: 2rem 2rem;
     box-shadow: 10px 10px 10px  rgba(0,0,0,.12);
 }
+small{
+    color:#333;
+}
 .btn-5{
     background-color: rgb(163, 44, 231);
     color:#fff;
@@ -271,7 +274,7 @@ padding : 1rem 6rem;
     margin-bottom: 2rem;
     cursor: pointer;
 }
-/* LAST BLOCK */
+          /* LAST BLOCK */
 .img1{
     width:200px;
     height:50px;
@@ -287,8 +290,7 @@ padding : 1rem 6rem;
     width:97%;
     position: relative;
     top:110px;
-    left:10px;
-    /* margin-top: 3rem; */
+    left:15px;
 }
 .black-bg{
     background-color: black;
@@ -298,7 +300,6 @@ padding : 1rem 6rem;
     position: relative;
 }
 .l-text{
-    /* display: inline; */
     display: flex;
     justify-content: space-between;
     align-items: center;
